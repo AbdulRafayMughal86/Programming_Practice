@@ -16,7 +16,7 @@ using namespace std;
 #define print(v,a) for(auto _ : v) cout << _ << a;
 
 void solve(){
-    
+    //Code goes here
 }
 
 
@@ -26,6 +26,7 @@ signed main(){
     // freopen("output.txt", "w", stdout);
 
     int t = 1;
+    //For Multiple Test Cases uncomment the next line
     //cin >> t;
     while(t--){
         solve();
