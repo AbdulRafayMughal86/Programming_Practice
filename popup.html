@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Local Dark Pattern Scanner</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header>
+        <p class="eyebrow">Local ML proof of concept</p>
+        <h1>Dark Pattern Scanner</h1>
+      </header>
+
+      <section class="controls" aria-label="Scanner controls">
+        <button id="scanPage" type="button">Scan Page</button>
+        <button id="clearHighlights" type="button" class="secondary">Clear Highlights</button>
+      </section>
+
+      <section id="status" class="status" role="status" aria-live="polite">
+        Ready to scan the active tab.
+      </section>
+
+      <section class="summary" aria-label="Scan summary">
+        <div class="summary-card">
+          <span class="summary-label">Scanned elements</span>
+          <strong id="totalScanned">0</strong>
+        </div>
+        <div class="summary-card warning">
+          <span class="summary-label">Suspicious elements</span>
+          <strong id="suspiciousCount">0</strong>
+        </div>
+      </section>
+
+      <section class="class-counts" aria-label="Counts by class">
+        <h2>Counts by class</h2>
+        <ul id="classCounts"></ul>
+      </section>
+
+      <p class="privacy-note">
+        This extension runs locally. No webpage data is sent anywhere.
+      </p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

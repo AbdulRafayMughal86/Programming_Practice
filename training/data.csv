@@ -1,0 +1,36 @@
+text,label
+"Welcome to our store",safe
+"Read the article at your own pace",safe
+"Your order summary is shown below",safe
+"You can close this window any time",safe
+"Learn more about privacy settings",safe
+"Offer ends soon",urgency
+"Limited time only",urgency
+"Hurry up before this deal expires",urgency
+"Last chance to claim this offer",urgency
+"Sale ends tonight",urgency
+"Only 2 left",scarcity
+"Few items remaining",scarcity
+"Almost sold out",scarcity
+"Only one room left at this price",scarcity
+"Stock is running out",scarcity
+"No thanks I hate saving money",confirmshaming
+"I don't want this deal",confirmshaming
+"No thanks I prefer paying full price",confirmshaming
+"Reject my discount",confirmshaming
+"I do not like free savings",confirmshaming
+"You must subscribe to continue",forced_action
+"Create an account to proceed",forced_action
+"Sign up before you can read this",forced_action
+"Subscribe now to unlock the page",forced_action
+"Register to continue checkout",forced_action
+"Extra fee added at checkout",hidden_costs
+"Additional charges may apply",hidden_costs
+"Your trial renews automatically",hidden_costs
+"Service fee appears during checkout",hidden_costs
+"Taxes and charges added later",hidden_costs
+"Download now",misleading_cta
+"Accept all",misleading_cta
+"Continue",misleading_cta
+"Click the big accept button to proceed",misleading_cta
+"Start download to view content",misleading_cta
